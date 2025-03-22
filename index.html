@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> 🛺OGOLLA'S GROCERY</title>
+</head>
+  <body>
+    <h1>My Shopping List</h1>
+    <!-- Adding an ordered list with roman numerals -->
+    <ol type="i">
+      <li>Potatoes</li>
+      <li>Quavas</li>
+      <li>Oranges</li>
+      <li>Spinach</li>
+      <li>Kales</li>
+      <li>Mangoes</li>
+      </ol>
+<br><br>
+<!-- Adding external image from pexel.com -->
+      <img src="https://images.pexels.com/photos/2733918/pexels-photo-2733918.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Grocery Image"></img>
+<br><br>
+<!--Creating a name with 5 contacts-->
+      <table border="1">
+        <caption>Contacts</caption>
+        <thead
+        <tr>
+          <th>No.</th>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile Number</th>
+          <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>1</td>
+          <td>John Mikasa</td>
+          <td>56 Wolfstreet</td>
+          <td>+237-657-980-435</td>
+          <td>johnmikasa@hotmail.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Grace Mwende</td>
+          <td>45 Kikuyu Road</td>
+          <td>+254-789-345-234</td>
+          <td>gracemwende@gmai.com</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Samuel Omondi</td>
+          <td>23 Kisumu Street</td>
+          <td>+254-978-811-678</td>
+          <td>omondisamuel@gmail.com</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Lucy Wanjiru</td>
+          <td>34 Thika Road</td>
+          <td>+254-789-745-213</td>
+          <td>lucywanjiru234@gmail.com</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Joseph Mwangi</td>
+          <td>12 Nakuru Road</td>
+          <td>+254-789-645-345</td>
+          <td>josephmulee@hotmail.com</td>
+        </tr>
+        </tbody>
+      </table>
+<br><br>
+<!--Adding a Registration form-->
+<form>
+  <label for="full_name">Full Name:</label>
+  <input type="text" id="full_name" name="full_name" placeholder="Full Name" required>
+  <br><br>
+  <!--Radio buttons for gender selsection-->
+  <label for="gender">Gender</label>
+  <input type="radio" name="gender" value="Male">Male
+  <input type="radio" name="gender" value="Female">Female
+  <br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="Email" required>
+<br><br>
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Password" required>
+<br><br>
+<label for="date">Date:</label>
+<input type="date" id="date" name="date" required>
+<br><br>
+<!--Checkbox for languages-->
+<label for="languages">Languages</label>
+<input type="checkbox" name="languages" value="English">English
+<input type="checkbox" name="languages" value="Kiswahili">Kiswahili
+<input type="checkbox" name="languages" value="French">French
+<br><br>
+<label for="country">Country:</label>
+<!--Adding a dropdown-->
+<select>
+  <option>--Select Country--</option>
+  <option value="Kenya">Kenya</option>
+  <option value="Uganda">Uganda</option>
+  <option value="Tanzania">Tanzania</option>
+  <option value="Rwanda">Rwanda</option>
+  <option value="Burundi">Burundi</option>
+</select>
+<br><br>
+<input type="submit" value="Submit">
+<button type="reset">Cancel</button>
+</form>
+</body>
+</html>
